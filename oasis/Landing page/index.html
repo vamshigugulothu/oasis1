@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+	<title>Botanical Bay</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--CSS & Bootstrap-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="icon.png">
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #0e0e0e;" data-bs-theme="dark" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="bi bi-flower1"></i>BOTANICAL BAY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <a href="#register"><button class="btn btn-light" type="submit"><i class="bi bi-person-circle"></i> Register</button></a>
+          
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <section id="intro">
+
+    <div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h2>BOTANICAL <br>BAY</h2>
+	   			<h5>The world of Flowers</h5>
+
+	   			<form class="d-flex search" role="search">
+            <input class="form-control me-2" type="search" placeholder="Enter your Email Address" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Subscribe</button>
+          </form>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+  </section>
+
+  <!-- About -->
+  <section id="about">  
+
+    <div class="row section-intro">
+      <div class="col-twelve">
+
+        <h1>About Us</h1>
+
+        <div class="intro-info">
+          <p class="lead">
+            Welcome to Botanic Bay, where nature’s beauty blooms with every petal.
+            Immerse yourself in a sensory journey through our enchanting boutique,
+            filled with vibrant flowers and captivating arrangements. Our passionate 
+            and knowledgeable florists are dedicated to curating extraordinary floral 
+            designs that capture the essence of every heartfelt sentiment. From romantic
+            bouquets to enchanting centerpieces, we bring joy and elegance to every occasion.
+            Experience personalized service and expert guidance as we help you select the
+            perfect blooms for your special moments. Celebrate life's milestones with the
+            grace and charm of our handcrafted floral arrangements, designed to leave a lasting 
+            impression. Whether you seek a single stem or a grand ensemble, Botanic Bay is your
+            destination for unforgettable floral experiences..</p>
+        </div>   			
+
+      </div>   		
+    </div>
+  </section> <!-- /about--> 
+
+  <section>
+    <div class="registration-form" id="register">
+      <h1>Registrarion Form</h1>
+      <form action="#">
+        <p>First Name:</p>
+        <input type="text" name="fullname" placeholder="Full Name">
+        <p>Middle Name:</p>
+        <input type="text" name="middlename" placeholder="Middle Name (Optional)">
+        <p>Last Name:</p>
+        <input type="text" name="lastname" placeholder="Last Name">
+        <p>User Name</p>
+        <input type="text" name="username" placeholder="User Name">
+        <p>Password</p>
+        <input type="password" name="password" placeholder="Password">
+        <p>Confirm Password</p>
+        <input type="password" name="password" placeholder="Confirm Password">
+        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal1">
+          Register
+      </button>
+      </form>
+    </div>
+  </section>
+
+  <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="chatModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="chatModalLabel">Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Thank you for the Registration</p>
+        </div>
+        <div class="modal-footer">
+          <a href="index.html"><button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal" aria-label="Close">Close</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-distributed" id="contact">
+
+    <div class="footer-left">
+      <i class="bi bi-geo-alt-fill"></i><br>
+      <p>Hyderabad Telangana, India</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="bi bi-phone"></i><br>
+            <p>+91 1234567890</p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+          <i class="bi bi-envelope"></i>
+          <p><a href="">someone@yahoomail.com</a></p>
+        </p>
+    </div>
+</footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(image.jpg) no-repeat center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	min-height: 720px;
+	display: table;
+	position: absolute;
+}
+header nav div a{
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+.info{
+  text-align: justify;
+  background: #000;
+  color: #fff;
+  padding: 20px 100px 20px 100px;
+  opacity: 0.65;
+  
+}
+  .result-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #000;
+  }
+  
+  #convertedTemperature {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+.bg{
+  display: flex;
+  justify-content: center;
+}
+  .form{
+    position: relative;
+    background: #000;
+    opacity: 0.6;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    padding: 30px 80px 80px 80px;
+    border-radius: 10px;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  .checkbox-container input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    font-size: 30px;
+  }
+
+

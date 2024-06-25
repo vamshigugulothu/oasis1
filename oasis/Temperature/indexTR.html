@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+	<title>Temperature Convertor</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!--CSS & Bootstrap-->
+  <link rel="stylesheet" href="styleTR.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-md bg-light" data-bs-theme="light">
+        <div class="d-flex justify-content-center w-100">
+            <a class="" href="indexTR.html"><i class="bi bi-thermometer-snow"></i>Thermo Convert</a>
+        </div>
+    </nav>    
+</header>
+
+<section class="bg">
+    <div class="container">
+        <div class="row">
+            <div class="info col-12 w-75 mx-auto">
+                <p>"Welcome to our website, your ultimate temperature conversion resource! We offer a
+                comprehensive and easy-to-use tool that allows you to convert temperatures between
+                temperatures between Fahrenheit, Celsius, and Kelvin effortlessly.Whether you're a student,
+                a traveler, or simply a weather enthusiast, our conversion tool has you covered.Simply
+                input the temperature in any unit, and with a single click, you'll see the accurate
+                conversions in both Celsius and Kelvin. Our tool eliminates the need for manual calculations
+                and complex formulas, saving you time and effort. Experience the convenience of converting
+                temperatures in a snap and explore the world of temperature units with confidence. Start 
+                converting Fahrenheit to Celsius and Kelvin, or vice versa, with ease on our website today!"</p>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<section class="d-flex justify-content-center">
+    <div class="form m-5">
+        <form class="" id="convertForm">
+            <h1>Calculator</h1>
+            <div class="input-group">
+                <input type="number" class="form-control" id="temperatureInput" placeholder="Enter temperature">
+                <select class="form-control" id="unitSelect">
+                    <option value="">Select your Unit</option>
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option> <!-- Added Kelvin option -->
+                </select>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="kelvinCheckbox">
+                <label for="kelvinCheckbox">Check for Kelvin</label>
+            </div>
+            <div class="button-container">
+                <button class="btn btn-outline-success m-1" id="convertButton"><strong>Convert</strong></button>
+                <button class="btn btn-outline-danger m-1" id="resetButton"><strong>Reset</strong></button>
+            </div>
+        
+            <div id="resultContainer" class="result-container">
+                <p id="convertedTemperature"></p>
+            </div>
+        </form>        
+    </div>
+</section>
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark text-light" data-bs-theme="dark">
+    <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Gugulothu Vamshi, All rights Reserved</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mx-4">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-linkedin"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-github"></i></a></li>
+    </ul>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="indexTR.js"></SCRipt>
+</body>
+
+
+</html>
